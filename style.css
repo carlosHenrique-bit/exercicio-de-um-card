@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+body {
+    background-color: #fbcb3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5a3a21;
+    font-family: "Outfit", sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 50vh;
+    height: 90vh;
+    box-shadow: 0px 10px 10px #5a3a21;
+}
+
+
+.caixa-imagem-do-produto {
+    background-color: #f5eed7;
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-imagem-do-produto img {
+    width: 250px;
+    height: 250px;
+}
+
+.descricao-do-produto {
+    max-width: 100%;
+    height: 110%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8fcff;
+}
+
+.descricao-do-produto h2 {
+    font-size: 22pt;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.descricao-do-produto p {
+    font-size: 13px;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.estilos-de-cores {
+    display: flex;
+    margin-top: 20px;
+    gap: 25px;
+}
+
+.estilos-de-cores button {
+    width: 23px;
+    height: 23px;
+    border-radius: 50px;
+    border: none;
+}
+
+.estilos-de-cores #red {
+    background: #bc3f37;
+}
+
+.estilos-de-cores #green {
+    background: #358e88;
+}
+
+.estilos-de-cores #yellow {
+    background: #fbcb3e;
+}
+
+.valor-e-carrinho {
+    max-width: 100%;
+    display: flex;
+    gap: 27px;
+    margin-top: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.valor-e-carrinho h4 {
+    font-size: 20pt;
+    font-weight: 550;
+}
+
+.valor-e-carrinho button {
+    width: 120px;
+    height: 50px;
+    border: 2px solid #5a3a21;
+    border-radius: 10px;
+    color: #5a3a21;
+    font-weight: 800;
+}
+
+#Carrinho:hover {
+    background: #5a3a21;
+    border: none;
+    color: #f8fcff;
+    cursor: pointer;
+}
+
+.estilos-de-cores button:hover {
+    cursor: pointer;
+}
